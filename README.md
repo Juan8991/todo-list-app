@@ -1,6 +1,9 @@
 # AngularTodoList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.
+This project is a replica of the original [To-Do App](https://to-do-app.vercel.app/#), which was developed in React. My goal was to replicate the same functionalities using Angular 16 as a way to learn and practice.
+
+You can visit my version of the application at the following link:
+[To-Do List App](https://todo-list-app-ten-gray.vercel.app/)
 
 ## Development server
 
