@@ -35,4 +35,8 @@ export class HomeComponent {
   deleteItemsFromList(){
     this.taskList = this.taskList.filter(task => !task.completed);
   }
+  onSubmit(event: Event): void {
+    event.preventDefault();
+    this.addTask();
+  }
 }

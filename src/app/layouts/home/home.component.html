@@ -1,12 +1,12 @@
 <div class="main-container">
   <div class="todo-list-container">
     <h2>To Do App</h2>
-    <form>
+    <form (submit)="onSubmit($event)">
       <div class="new-task-container">
         <label class="new-task-label" for="task">Enter New Task</label>
         <input class="new-task-input" [formControl]="taskForm" type="text" name="task" id="task" aria-label="new-task">
       </div>
-      <button type="button" (click)="addTask()" [disabled]="!taskForm.valid" class="submit-button">Submit</button>
+      <button type="submit" (click)="addTask()" [disabled]="!taskForm.valid" class="submit-button">Submit</button>
     </form>
     <div class="list-container">
       <ul>
